@@ -7,7 +7,7 @@ function App() {
       <header id="header" className="fixed-top ">
         <div className="container d-flex align-items-center justify-content-between">
 
-          <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a>
+          <a href="index.html" className="logo"><img src="/assets/img/logo.png" alt="" className="img-fluid" /></a>
 
           <h1 className="logo"><a href="index.html">Folio</a></h1>
 
@@ -15,8 +15,8 @@ function App() {
             <ul>
               <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
               <li><a className="nav-link scrollto" href="#about">About</a></li>
-              <li><a className="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a className="nav-link  scrollto" href="#journal">Blog</a></li>
+              <li><a className="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+              <li><a className="nav-link scrollto" href="#journal">Blog</a></li>
               <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="#">Drop Down 1</a></li>
