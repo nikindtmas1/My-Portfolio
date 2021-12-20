@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import HomePage from "./components/Home/Home";
 import Portfolio from './components/Portfolio/Portfolio';
 
+
 function App() {
   return (
     <div className="texture">
