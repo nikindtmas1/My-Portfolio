@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 
 import Navigation from "./components/Navigation/Navigation";
-import HomePage from "./components/Home/Home";
+import HomePage from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';

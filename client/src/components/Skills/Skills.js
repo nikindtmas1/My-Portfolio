@@ -1,8 +1,10 @@
-
+import Navigation from "../Navigation/Navigation";
 
 const Skills = () => {
 
     return (
+        <>
+        <Navigation />
         <section id="skills" className="page">
             <div className="container_12">
                 <div className="grid_12">
@@ -36,6 +38,7 @@ const Skills = () => {
                 <div className="clear"></div>
             </div>
         </section>
+        </>
     );
 };
 
