@@ -5,51 +5,51 @@ const Portfolio = () => {
 
         <>
             <Navigation />
-            <section id="portfolio" class="page">
-                <div class="container_12">
-                    <div class="grid_12">
-                        <h2 class="color2">My Portfolio</h2>
-                        <div id="filters" class="button-group">
-                            <a href="/" class="btn is-checked" data-filter="*">Show all</a>
-                            <a href="/" class="btn" data-filter=".ill">Illustration</a>
-                            <a href="/" class="btn" data-filter=".photo">Photography</a>
-                            <a href="/" class="btn" data-filter=".design">Design</a>
+            <section id="portfolio" className="page">
+                <div className="container_12">
+                    <div className="grid_12">
+                        <h2 className="color2">My Portfolio</h2>
+                        <div id="filters" className="button-group">
+                            <a href="/" className="btn is-checked" data-filter="*">Show all</a>
+                            <a href="/" className="btn" data-filter=".ill">Illustration</a>
+                            <a href="/" className="btn" data-filter=".photo">Photography</a>
+                            <a href="/" className="btn" data-filter=".design">Design</a>
                         </div>
-                        <div class="el gallery" id="isotope">
-                            <div class="element design">
+                        <div className="el gallery" id="isotope">
+                            <div className="element design">
                                 <div>
-                                    <a href="images/big1.jpg" class="gall-item"><img src="images/gal_img1.jpg" alt="" /><span></span></a>
+                                    <a href="images/big1.jpg" className="gall-item"><img src="images/gal_img1.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div class="element photo">
+                            <div className="element photo">
                                 <div>
-                                    <a href="images/big2.jpg" class="gall-item"><img src="images/gal_img2.jpg" alt="" /><span></span></a>
+                                    <a href="images/big2.jpg" className="gall-item"><img src="images/gal_img2.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div class="element  photo">
+                            <div className="element  photo">
                                 <div>
-                                    <a href="images/big3.jpg" class="gall-item"><img src="images/gal_img3.jpg" alt="" /><span></span></a>
+                                    <a href="images/big3.jpg" className="gall-item"><img src="images/gal_img3.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div class="clear"></div>
-                            <div class="element ill">
+                            <div className="clear"></div>
+                            <div className="element ill">
                                 <div>
-                                    <a href="images/big4.jpg" class="gall-item"><img src="images/gal_img4.jpg" alt="" /><span></span></a>
+                                    <a href="images/big4.jpg" className="gall-item"><img src="images/gal_img4.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div class="element ill">
+                            <div className="element ill">
                                 <div>
-                                    <a href="images/big5.jpg" class="gall-item"><img src="images/gal_img5.jpg" alt="" /><span></span></a>
+                                    <a href="images/big5.jpg" className="gall-item"><img src="images/gal_img5.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div class="element design">
+                            <div className="element design">
                                 <div>
-                                    <a href="images/big6.jpg" class="gall-item"><img src="images/gal_img6.jpg" alt="" /><span></span></a>
+                                    <a href="images/big6.jpg" className="gall-item"><img src="images/gal_img6.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="clear"></div>
+                    <div className="clear"></div>
                 </div>
             </section>
         </>
