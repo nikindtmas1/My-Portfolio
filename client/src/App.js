@@ -27,15 +27,15 @@ function App() {
                   <span>THE BRIEF INTRODUCTION OF MYSELF</span>
                 </h2>
                 <p className="offset__1">Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus</p>
-                <img src="images/page-img_1.jpg" alt="" className="fleft" />
+                <img src="/images/page-img_11.jpeg" alt="" className="fleft" />
                 <div className="extra_wrapper">
                   <div className="text-1">
                     Nikolay Nikolaev
                   </div>
                   <div className="text-2 color1">
-                    <a href="/">Photographer</a> &bull;
-                    <a href="/">Coder</a> &bull;
-                    <a href="/">Designer</a>
+                    <a href="/">Developer</a> &bull;
+                    <a href="/">Front End</a> &bull;
+                    <a href="/">Back End</a>
                   </div>
                   <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
                   <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" className="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p>
