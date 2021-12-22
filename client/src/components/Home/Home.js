@@ -21,7 +21,7 @@ const HomePage = () => {
                 <h2>About Me
                   <span>THE BRIEF INTRODUCTION OF MYSELF</span>
                 </h2>
-                <p className="offset__1">Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus</p>
+                <p className="offset__1">I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Programing with JavaScript to improve the quality of our web site. I soon became the go-to person for any web projects.</p>
                 <img src="/images/page-img_11.jpeg" alt="" className="fleft" />
                 <div className="extra_wrapper">
                   <div className="text-1">
@@ -34,7 +34,7 @@ const HomePage = () => {
                   </div>
                   {/* <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
                   <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" className="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p> */}
-                  Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  <br />
+                  I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive toward. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness. In my previous role, I was awarded three times in less than two years.  <br />
                   <a href="/public/cv/cv-it.docx" className="btn">Download Resume</a>
                 </div>
               </div>
