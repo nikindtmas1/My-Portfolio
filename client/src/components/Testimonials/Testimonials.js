@@ -2,39 +2,39 @@
 const Testimonials = () => {
 
     return (
-        <section id="testimonials" class="page">
-            <div class="container_12">
-                <div class="grid_12">
-                    <h2 class="color2">Testimonials</h2>
+        <section id="testimonials" className="page">
+            <div className="container_12">
+                <div className="grid_12">
+                    <h2 className="color2">Testimonials</h2>
                 </div>
-                <div class="grid_4">
-                    <blockquote class="bq1">
+                <div className="grid_4">
+                    <blockquote className="bq1">
                         <img src="images/page-img_2.jpg" alt="" />
-                        <div class="extra_wrapper">
-                            <div class="text-2"><a href="#">Helen Thomson</a></div>
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">Helen Thomson</a></div>
                             Korem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererat
                         </div>
                     </blockquote>
                 </div>
-                <div class="grid_4">
-                    <blockquote class="bq1">
+                <div className="grid_4">
+                    <blockquote className="bq1">
                         <img src="images/page-img_3.jpg" alt="" />
-                        <div class="extra_wrapper">
-                            <div class="text-2"><a href="#">Mark Grey</a></div>
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">Mark Grey</a></div>
                             Morem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio daserera
                         </div>
                     </blockquote>
                 </div>
-                <div class="grid_4">
-                    <blockquote class="bq1">
+                <div className="grid_4">
+                    <blockquote className="bq1">
                         <img src="images/page-img_4.jpg" alt="" />
-                        <div class="extra_wrapper">
-                            <div class="text-2"><a href="#">Irma Wood</a></div>
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">Irma Wood</a></div>
                             Torem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererum
                         </div>
                     </blockquote>
                 </div>
-                <div class="clear"></div>
+                <div className="clear"></div>
             </div>
         </section>
     );

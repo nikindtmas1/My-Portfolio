@@ -21,12 +21,12 @@ const Portfolio = () => {
                             </div>
                             <div className="element photo">
                                 <div>
-                                    <a href="images/big2.jpg" className="gall-item"><img src="images/gal_img2.jpg" alt="" /><span></span></a>
+                                    <a href="images/big2.jpg" className="gall-item"><img src="images/gal_img12.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="element  photo">
                                 <div>
-                                    <a href="images/big3.jpg" className="gall-item"><img src="images/gal_img3.jpg" alt="" /><span></span></a>
+                                    <a href="images/big3.jpg" className="gall-item"><img src="images/gal_img13.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="clear"></div>
@@ -37,12 +37,12 @@ const Portfolio = () => {
                             </div>
                             <div className="element ill">
                                 <div>
-                                    <a href="images/big5.jpg" className="gall-item"><img src="images/gal_img5.jpg" alt="" /><span></span></a>
+                                    <a href="images/big5.jpg" className="gall-item"><img src="images/gal_img15.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="element design">
                                 <div>
-                                    <a href="images/big6.jpg" className="gall-item"><img src="images/gal_img6.jpg" alt="" /><span></span></a>
+                                    <a href="images/big6.jpg" className="gall-item"><img src="images/gal_img16.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                         </div>
