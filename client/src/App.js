@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Testimonials from './components/Testimonials/Testimonials';
+import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='/skills' component={Skills} />
             <Route path='/experience' component={Experience} />
             <Route path='/testimonials' component={Testimonials} />
+            <Route path='/contacts' component={Contacts} />
           </Switch>
         </section>
       </div>
