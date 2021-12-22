@@ -13,7 +13,7 @@ const Skills = () => {
                         <img src="images/page-img_21.jpg" alt="" />
                         <div className="extra_wrapper">
                             <div className="text-2"><a href="#">HTML5</a></div>
-                            Korem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererat
+                            Hypertext Markup Language
                         </div>
                     </blockquote>
                 </div>
@@ -21,17 +21,44 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_31.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">Mark Grey</a></div>
-                            Morem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio daserera
+                            <div className="text-2"><a href="#">CSS</a></div>
+                            Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
                         </div>
                     </blockquote>
                 </div>
                 <div className="grid_4">
                     <blockquote className="bq1">
-                        <img src="images/page-img_4.jpg" alt="" />
+                        <img src="images/page-img_41.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">Irma Wood</a></div>
-                            Torem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererum
+                            <div className="text-2"><a href="#">JavaScript</a></div>
+                            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                        </div>
+                    </blockquote>
+                </div>
+                <div className="grid_4">
+                    <blockquote className="bq1">
+                        <img src="images/page-img_41.jpg" alt="" />
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">React Js</a></div>
+                            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                        </div>
+                    </blockquote>
+                </div>
+                <div className="grid_4">
+                    <blockquote className="bq1">
+                        <img src="images/page-img_41.jpg" alt="" />
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">Express Js</a></div>
+                            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                        </div>
+                    </blockquote>
+                </div>
+                <div className="grid_4">
+                    <blockquote className="bq1">
+                        <img src="images/page-img_41.jpg" alt="" />
+                        <div className="extra_wrapper">
+                            <div className="text-2"><a href="#">Node.Js</a></div>
+                            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
                         </div>
                     </blockquote>
                 </div>
