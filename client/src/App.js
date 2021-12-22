@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 
 import Navigation from "./components/Navigation/Navigation";
 import HomePage from './components/Home/Home';
@@ -31,7 +31,7 @@ function App() {
           </Switch>
         </section>
       </div>
-      <a href="/" id="toTop" className="fa fa-chevron-up"></a>
+      <Link to="/" id="toTop" className="fa fa-chevron-up"></Link>
       <Footer />
 
     </>
