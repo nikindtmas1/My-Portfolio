@@ -1,5 +1,39 @@
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_eSMFjCjC1C4AXtnDjwkCx");
 
 const Contacts = () => {
+
+    const [toSend, setToSend] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+    });
+
+
+    const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
+    
+    
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+        send(
+            'service_kjn3k22',
+            'TEMPLATE ID',
+            toSend,
+            'user_eSMFjCjC1C4AXtnDjwkCx'
+          )
+            .then((response) => {
+              console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+              console.log('FAILED...', err);
+            });
+      };
 
     return (
         <section id="contacts" className="page">
@@ -8,31 +42,31 @@ const Contacts = () => {
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">
-                    <form id="contact-form">
+                    <form id="contact-form" onSubmit={onSubmit}>
                         <div className="contact-form-loader"></div>
                         <fieldset>
                             <label className="name">
-                                <input type="text" name="name" placeholder="Name*:" value="" data-constraints="@Required @JustLetters" />
+                                <input type="text" name="name" placeholder="Name*:" value={toSend.name} data-constraints="@Required @JustLetters" onChange={handleChange} />
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid name.</span>
                             </label>
                             <label className="email">
-                                <input type="text" name="email" placeholder="E-mail*:" value="" data-constraints="@Required @Email" />
+                                <input type="text" name="email" placeholder="E-mail*:" value={toSend.email} data-constraints="@Required @Email" onChange={handleChange}/>
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid email.</span>
                             </label>
                             <label className="phone">
-                                <input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
+                                <input type="text" name="phone" placeholder="Telephone:" value={toSend.phone} data-constraints="@Required @JustNumbers" onChange={handleChange}/>
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid phone.</span>
                             </label>
                             <label className="message">
-                                <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                                <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)' onChange={handleChange}>{toSend.message}</textarea>
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*The message is too short.</span>
                             </label>
                             <div>
-                                <a href="#" className="btn" data-type="submit">submit </a>
+                                <a href="" className="btn" data-type="submit">submit </a>
                             </div>
                         </fieldset>
                         <div className="modal fade response-message">
