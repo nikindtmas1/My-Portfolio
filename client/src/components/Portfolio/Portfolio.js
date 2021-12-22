@@ -1,10 +1,7 @@
-import Navigation from "../Navigation/Navigation";
+
 const Portfolio = () => {
 
     return (
-
-        <>
-            <Navigation />
             <section id="portfolio" className="page">
                 <div className="container_12">
                     <div className="grid_12">
@@ -52,7 +49,6 @@ const Portfolio = () => {
                     <div className="clear"></div>
                 </div>
             </section>
-        </>
     );
 }
 
