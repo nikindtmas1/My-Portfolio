@@ -22,6 +22,7 @@ function App() {
           <div className="ic">More Website Templates @ TemplateMonster.com - October 20, 2014!</div>
           <Switch>
             <Route path='/' exact component={HomePage} />
+            <Route path='/home' component={HomePage} />
             <Route path='/portfolio' component={Portfolio} />
             <Route path='/skills' component={Skills} />
             <Route path='/experience' component={Experience} />
@@ -30,7 +31,7 @@ function App() {
           </Switch>
         </section>
       </div>
-
+      <a href="/" id="toTop" className="fa fa-chevron-up"></a>
       <Footer />
 
     </>
