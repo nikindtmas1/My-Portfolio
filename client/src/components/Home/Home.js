@@ -1,5 +1,4 @@
 
-
 const HomePage = () => {
 
     return (
@@ -29,14 +28,14 @@ const HomePage = () => {
                     Nikolay Nikolaev
                   </div>
                   <div className="text-2 color1">
-                    <a href="/">Developer</a> &bull;
-                    <a href="/">Front End</a> &bull;
-                    <a href="/">Back End</a>
+                    <a href="https://github.com/nikindtmas1">Developer</a> &bull;
+                    <a href="https://react-project-journey.web.app/">Front End</a> &bull;
+                    <a href="https://github.com/nikindtmas1/My-Cubic-MongoDb">Back End</a>
                   </div>
-                  <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
-                  <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" className="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p>
+                  {/* <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
+                  <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" className="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p> */}
                   Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  <br />
-                  <a href="/" className="btn">Download Resume</a>
+                  <a href="/public/cv/cv-it.docx" className="btn">Download Resume</a>
                 </div>
               </div>
               <div className="clear"></div>

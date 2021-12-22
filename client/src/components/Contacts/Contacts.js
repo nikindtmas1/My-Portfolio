@@ -51,14 +51,13 @@ const Contacts = () => {
                     </form>
                 </div>
                 <div className="grid_6">
-                    <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
-                    <p><a href="http://www.templatetuning.com/" rel="nofollow" className="color1">TemplateTuning</a> will help you with customization of the chosen <br /> theme.</p>
-                    The Company Name Inc. <br />
-                    9870 St Vincent Place,<br />
-                    Glasgow, DC 45 Fr 45.<br />
-                    Telephone: +1 800 603 6035<br />
-                    FAX: +1 800 889 9898<br />
-                    E-mail: <a href="mailto:mail@demolink.org">mail@demolink.org</a>
+                    {/* <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
+                    <p><a href="http://www.templatetuning.com/" rel="nofollow" className="color1">TemplateTuning</a> will help you with customization of the chosen <br /> theme.</p> */}
+                 
+                    9000 Postcode,<br />
+                    Varna,  43.217 / 27.917<br />
+                    Telephone: +359 878 948 454<br />
+                    E-mail: <a href="https://google.com">nikindtmas1@gmail.com</a>
                 </div>
                 <div className="clear"></div>
             </div>
@@ -68,10 +67,10 @@ const Contacts = () => {
             <div className="container_12">
                 <div className="grid_12">
                     <div className="social-icons">
-                        <a href="#" className="fa fa-twitter"></a>
-                        <a href="#" className="fa fa-facebook"></a>
-                        <a href="#" className="fa fa-google-plus"></a>
-                        <a href="#" className="fa fa-pinterest"></a>
+                        <a href="https://m.twitter.com" className="fa fa-twitter"></a>
+                        <a href="https://www.facebook.com/nikolai.nikolaev.986" className="fa fa-facebook"></a>
+                        <a href="https://github.com/nikindtmas1" className="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/nikolay-nikolaev-4555631a7/" className="fa fa-linkedin"></a>
                     </div>
                 </div>
                 <div className="clear"></div>
