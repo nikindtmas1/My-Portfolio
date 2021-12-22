@@ -35,7 +35,7 @@ const HomePage = () => {
                   {/* <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
                   <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" className="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p> */}
                   I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive toward. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness. In my previous role, I was awarded three times in less than two years.  <br />
-                  <a href="/public/cv/cv-it.docx" className="btn">Download Resume</a>
+                  {/* <a href="/public/cv/cv-it.docx" className="btn">Download Resume</a> */}
                 </div>
               </div>
               <div className="clear"></div>
