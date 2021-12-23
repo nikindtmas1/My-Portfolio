@@ -39,6 +39,10 @@ const Contacts = () => {
         <section id="contacts" className="page">
             <div className="container_12">
                 <div className="grid_12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">

@@ -5,6 +5,10 @@ const Portfolio = () => {
             <section id="portfolio" className="page">
                 <div className="container_12">
                     <div className="grid_12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <h2 className="color2">My Portfolio</h2>
                         <div id="filters" className="button-group">
                             <a href="https://github.com/nikindtmas1" className="btn is-checked" data-filter="*">Show all</a>

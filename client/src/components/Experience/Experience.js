@@ -5,6 +5,10 @@ const Experience = () => {
         <section id="experience" className="page">
             <div className="container_12">
                 <div className="grid_12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     <h2>Work Experience</h2>
                     <div className="block-1">
                         <div className="grid_4 alpha">

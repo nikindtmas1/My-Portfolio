@@ -6,6 +6,10 @@ const Skills = () => {
         <section id="testimonials" className="page">
             <div className="container_12">
                 <div className="grid_12">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     <h2 className="color2">Skills</h2>
                 </div>
                 <div className="grid_4">
