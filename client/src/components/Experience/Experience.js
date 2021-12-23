@@ -13,6 +13,27 @@ const Experience = () => {
                     <div className="block-1">
                         <div className="grid_4 alpha">
                             <div className="block-1__left">
+                                <h3>2021 - Present</h3>
+                                <time datetime="2014-01-01" className="text-2">Oktober</time>
+                                <div className="ta__right">
+                                    <div className="text-2 color1">SoftUni</div>
+                                    Create Content For Tasks.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="grid_8 omega">
+                            <div className="block-2__right">
+                                <h3>Job Description</h3>
+                                <div className="text-2">SoftUni Dream Team</div>
+                                <p>Content Development.</p>
+                                {/* Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit */}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="block-1">
+                        <div className="grid_4 alpha">
+                            <div className="block-1__left">
                                 <h3>2020 - Present</h3>
                                 <time datetime="2014-01-01" className="text-2">April</time>
                                 <div className="ta__right">
