@@ -20,12 +20,12 @@ const Portfolio = () => {
                         <div className="el gallery" id="isotope">
                             <div className="element design">
                                 <div>
-                                    <a href="images/big1.jpg" className="gall-item"><img src="images/gal_img1.jpg" alt="" /><span></span></a>
+                                    <a href="images/big11.jpg" className="gall-item"><img src="images/gal_img11.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="element photo">
                                 <div>
-                                    <a href="images/big2.jpg" className="gall-item"><img src="images/gal_img2.jpg" alt="" /><span></span></a>
+                                    <a href="images/big21.jpg" className="gall-item"><img src="images/gal_img21.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="element  photo">
@@ -36,19 +36,19 @@ const Portfolio = () => {
                             <div className="clear"></div>
                             <div className="element ill">
                                 <div>
-                                    <a href="images/big4.jpg" className="gall-item"><img src="images/gal_img4.jpg" alt="" /><span></span></a>
+                                    <a href="images/big41.jpg" className="gall-item"><img src="images/gal_img41.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
                             <div className="element ill">
                                 <div>
-                                    <a href="images/big5.jpg" className="gall-item"><img src="images/gal_img5.jpg" alt="" /><span></span></a>
+                                    <a href="images/big51.jpg" className="gall-item"><img src="images/gal_img51.jpg" alt="" /><span></span></a>
                                 </div>
                             </div>
-                            <div className="element design">
+                            {/* <div className="element design">
                                 <div>
-                                    <a href="images/big6.jpg" className="gall-item"><img src="images/gal_img6.jpg" alt="" /><span></span></a>
+                                    <a href="images/big61.jpg" className="gall-item"><img src="images/gal_img61.jpg" alt="" /><span></span></a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="clear"></div>
