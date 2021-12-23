@@ -11,7 +11,8 @@ const Navigation = () => {
                     </h1>
                     <nav>
                         <ul>
-                            <li><a href="/home" className="current">Home</a></li>
+                            {/* className="current" */}
+                            <li><a href="/home" >Home</a></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
                             <li><Link to="/experience">Experience</Link></li>

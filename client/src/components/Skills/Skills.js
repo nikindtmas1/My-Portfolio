@@ -16,8 +16,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_21.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">HTML5</a></div>
-                            Hypertext Markup Language
+                            <div className="text-3">HTML5</div>
+                           <div className="text-3">Hypertext Markup Language</div>
                         </div>
                     </blockquote>
                 </div>
@@ -25,8 +25,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_31.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">CSS</a></div>
-                            Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
+                            <div className="text-3">CSS</div>
+                           <div className="text-3">Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</div> 
                         </div>
                     </blockquote>
                 </div>
@@ -34,8 +34,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_41.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">JavaScript</a></div>
-                            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                            <div className="text-3">JavaScript</div>
+                           <div className="text-3">Is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.</div>
                         </div>
                     </blockquote>
                 </div>
@@ -43,8 +43,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_51.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">React Js</a></div>
-                            React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+                            <div className="text-3">React Js</div>
+                           <div className="text-3">Is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.</div>
                         </div>
                     </blockquote>
                 </div>
@@ -52,8 +52,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_61.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">Express Js</a></div>
-                            Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.
+                            <div className="text-3">Express Js</div>
+                           <div className="text-3">Is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.</div>
                         </div>
                     </blockquote>
                 </div>
@@ -61,8 +61,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_71.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">Node.Js</a></div>
-                            Node. js (Node) is an open source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.
+                            <div className="text-3">Node.Js</div>
+                           <div className="text-3">(Node) is an open source development platform for executing JavaScript code server-side. Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.</div>
                         </div>
                     </blockquote>
                 </div>
@@ -70,8 +70,8 @@ const Skills = () => {
                     <blockquote className="bq1">
                         <img src="images/page-img_81.jpg" alt="" />
                         <div className="extra_wrapper">
-                            <div className="text-2"><a href="#">MongoDB</a></div>
-                            MongoDB is an open source NoSQL database management program. NoSQL is used as an alternative to traditional relational databases. NoSQL databases are quite useful for working with large sets of distributed data. MongoDB is a tool that can manage document-oriented information, store or retrieve information.
+                            <div className="text-3">MongoDB</div>
+                           <div className="text-3">Is an open source NoSQL database management program. NoSQL is used as an alternative to traditional relational databases. NoSQL databases are quite useful for working with large sets of distributed data. MongoDB is a tool that can manage document-oriented information, store or retrieve information.</div>
                         </div>
                     </blockquote>
                 </div>
