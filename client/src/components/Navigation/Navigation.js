@@ -16,7 +16,8 @@ const Navigation = () => {
                             <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
                             <li><Link to="/experience">Experience</Link></li>
-                            <li><Link to="/testimonials">Testimonials</Link></li>
+                            <li><Link to="/certificates">Certificates</Link></li>
+                            {/* <li><Link to="/testimonials">Testimonials</Link></li> */}
                             <li><Link to="/contacts">Contacts</Link></li>
                         </ul>
                     </nav>
