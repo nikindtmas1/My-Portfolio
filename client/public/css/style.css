@@ -401,7 +401,7 @@ header h1 a {
 }
 /****Gallery****/
 .element {
-  border: 1px solid #151515;
+  /* border: 1px solid #4771ca; */
   margin-top: -1px;
 }
 .element + .element {
@@ -409,7 +409,7 @@ header h1 a {
 }
 .gall-item {
   display: block;
-  background-color: #000;
+  background-color: rgb(49, 175, 175);
   position: relative;
 }
 .gall-item img {
@@ -453,6 +453,24 @@ header h1 a {
   color: #ffffff;
   font-weight: normal;
 }
+
+.text-4 {
+  display: block;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.text-5 {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 36px;
+  font-weight: normal;
+}
+
 .color1 {
   color: #287e7d;
 }
