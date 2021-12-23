@@ -23,7 +23,7 @@ const Contacts = () => {
         e.preventDefault();
         send(
             'service_kjn3k22',
-            'TEMPLATE ID',
+            '__ejs-test-mail-service__',
             toSend,
             'user_eSMFjCjC1C4AXtnDjwkCx'
           )
