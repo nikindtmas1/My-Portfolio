@@ -1,39 +1,24 @@
-import { useState } from 'react';
-import { send } from 'emailjs-com';
-import{ init } from 'emailjs-com';
-init("user_eSMFjCjC1C4AXtnDjwkCx");
+//import { useState } from 'react';
+// import { send } from 'emailjs-com';
+// import{ init } from 'emailjs-com';
+// init("user_eSMFjCjC1C4AXtnDjwkCx");
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contacts = () => {
 
-    const [toSend, setToSend] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        message: ''
-    });
+    const form = useRef();
 
-
-    const handleChange = (e) => {
-        setToSend({ ...toSend, [e.target.name]: e.target.value });
-      };
-    
-    
-
-    const onSubmit = (e) => {
-        e.preventDefault();
-        send(
-            'service_kjn3k22',
-            '__ejs-test-mail-service__',
-            toSend,
-            'user_eSMFjCjC1C4AXtnDjwkCx'
-          )
-            .then((response) => {
-              console.log('SUCCESS!', response.status, response.text);
-            })
-            .catch((err) => {
-              console.log('FAILED...', err);
-            });
-      };
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_kjn3k22', '__ejs-test-mail-service__', form.current, 'user_eSMFjCjC1C4AXtnDjwkCx')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     return (
         <section id="contacts" className="page">
@@ -46,31 +31,32 @@ const Contacts = () => {
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">
-                    <form id="contact-form" onSubmit={onSubmit}>
+                    <form id="contact-form" ref={form} onSubmit={sendEmail}>
                         <div className="contact-form-loader"></div>
                         <fieldset>
                             <label className="name">
-                                <input type="text" name="name" placeholder="Name*:" value={toSend.name} data-constraints="@Required @JustLetters" onChange={handleChange} />
+                                <input type="text" name="user_name" placeholder="Name*:"  data-constraints="@Required @JustLetters"  />
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid name.</span>
                             </label>
                             <label className="email">
-                                <input type="text" name="email" placeholder="E-mail*:" value={toSend.email} data-constraints="@Required @Email" onChange={handleChange}/>
+                                <input type="text" name="user_email" placeholder="E-mail*:"  data-constraints="@Required @Email" />
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid email.</span>
                             </label>
                             <label className="phone">
-                                <input type="text" name="phone" placeholder="Telephone:" value={toSend.phone} data-constraints="@Required @JustNumbers" onChange={handleChange}/>
+                                <input type="text" name="user_phone" placeholder="Telephone:"  data-constraints="@Required @JustNumbers" />
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*This is not a valid phone.</span>
                             </label>
                             <label className="message">
-                                <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)' onChange={handleChange}>{toSend.message}</textarea>
+                                <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)' />
                                 <span className="empty-message">*This field is required.</span>
                                 <span className="error-message">*The message is too short.</span>
                             </label>
                             <div>
-                                <a href="" className="btn" data-type="submit">submit </a>
+                                <input className="btn" type="submit" value="Send" data-type="submit" />
+                                {/* <a href="" value="Send" className="btn" data-type="submit">submit </a> */}
                             </div>
                         </fieldset>
                         <div className="modal fade response-message">
@@ -105,7 +91,7 @@ const Contacts = () => {
             <div className="container_12">
                 <div className="grid_12">
                     <div className="social-icons">
-                        <a href="https://m.twitter.com" className="fa fa-twitter"></a>
+                        <a href="https://m.twitter.com" className="fa fa-twitter" ></a>
                         <a href="https://www.facebook.com/nikolai.nikolaev.986" className="fa fa-facebook"></a>
                         <a href="https://github.com/nikindtmas1" className="fa fa-github"></a>
                         <a href="https://www.linkedin.com/in/nikolay-nikolaev-4555631a7/" className="fa fa-linkedin"></a>
