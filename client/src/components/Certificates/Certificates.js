@@ -19,7 +19,7 @@ const Certificates = () => {
     </div>
     <div className="grid_3">
       <blockquote className="bq">
-        <img src="images/page-img_111.jpeg" alt="" /> 
+        <img src="images/page-img_111.png" alt="" /> 
       </blockquote>
     </div>
     <div className="grid_3">
