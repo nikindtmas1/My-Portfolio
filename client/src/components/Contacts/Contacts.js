@@ -1,23 +1,25 @@
 //import { useState } from 'react';
 // import { send } from 'emailjs-com';
 // import{ init } from 'emailjs-com';
-// init("user_eSMFjCjC1C4AXtnDjwkCx");
+// init("user_eSMFjCjC1C4AXtnDjwkCx");serviseId : service_h9aidmw
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
-
+    
     const form = useRef();
-
+    
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_kjn3k22', '__ejs-test-mail-service__', e.target, "user_eSMFjCjC1C4AXtnDjwkCx")
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+        
+        console.log(emailjs.sendForm);
+      console.log(form.current);
+    //   emailjs.sendForm('service_h9aidmw', 'template_j6a3t4s', form.current, "user_eSMFjCjC1C4AXtnDjwkCx")
+    //     .then((result) => {
+    //         console.log(result.text);
+    //     }, (error) => {
+    //         console.log(error.text);
+    //     });
     };
 
     return (
@@ -31,7 +33,7 @@ const Contacts = () => {
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">
-                    <form id="contact-form" ref={form} onSubmit={sendEmail}>
+                    <form id="contact-form" ref={form} onSubmit={sendEmail} >
                         <div className="contact-form-loader"></div>
                         <fieldset>
                             <label className="name">
@@ -55,8 +57,8 @@ const Contacts = () => {
                                 <span className="error-message">*The message is too short.</span>
                             </label>
                             <div>
-                                <input className="btn" type="submit" value="Send" data-type="submit" />
-                                {/* <a href="" value="Send" className="btn" data-type="submit">submit </a> */}
+                                {/* <input className="btn" type="submit" value="Send" data-type="submit" /> */}
+                                <a href="" value="Send" className="btn" data-type="submit">submit </a>
                             </div>
                         </fieldset>
                         <div className="modal fade response-message">
