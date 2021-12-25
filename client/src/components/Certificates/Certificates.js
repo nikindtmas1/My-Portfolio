@@ -14,7 +14,7 @@ const Certificates = () => {
     </div>
     <div className="grid_3">
       <blockquote className="bq">
-        <img src="images/page-img_110.jpeg" alt="" /> 
+        <img src="images/page-img_110.png" alt="" /> 
       </blockquote>
     </div>
     <div className="grid_3">
@@ -24,12 +24,12 @@ const Certificates = () => {
     </div>
     <div className="grid_3">
       <blockquote className="bq">
-        <img src="images/page-img_112.jpeg" alt="" />
+        <img src="images/page-img_112.png" alt="" />
       </blockquote>
     </div>
     <div className="grid_3">
       <blockquote className="bq">
-        <img src="images/page-img_113.jpeg" alt="" />
+        <img src="images/page-img_113.png" alt="" />
       </blockquote>
     </div>
     <div className="clear"></div>
