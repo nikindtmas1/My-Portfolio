@@ -2,25 +2,31 @@
 // import { send } from 'emailjs-com';
 // import{ init } from 'emailjs-com';
 // init("user_eSMFjCjC1C4AXtnDjwkCx");serviseId : service_h9aidmw
-import React, { useRef } from 'react';
+// import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
     
-    const form = useRef();
-    
     const sendEmail = (e) => {
-        e.preventDefault();
-        
-        console.log(emailjs.sendForm);
-      console.log(form.current);
-    //   emailjs.sendForm('service_h9aidmw', 'template_j6a3t4s', form.current, "user_eSMFjCjC1C4AXtnDjwkCx")
-    //     .then((result) => {
-    //         console.log(result.text);
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     });
-    };
+        e.preventDefault()
+
+        // const formData = new FormData(e.currentTarget)
+
+        // console.log(formData);
+        const templateParams = {
+            name: 'Portfolio App',
+            notes: 'Check this out!'
+        };
+         
+        emailjs.send('service_h9aidmw', 'template_j6a3t4s', templateParams)
+            .then(function(response) {
+               console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+               console.log('FAILED...', error);
+            });
+
+    }
+   
 
     return (
         <section id="contacts" className="page">
@@ -33,7 +39,7 @@ const Contacts = () => {
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">
-                    <form id="contact-form" ref={form} onSubmit={sendEmail} >
+                    <form id="contact-form" onSubmit={sendEmail} >
                         <div className="contact-form-loader"></div>
                         <fieldset>
                             <label className="name">
