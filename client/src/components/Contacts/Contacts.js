@@ -1,32 +1,10 @@
-//import { useState } from 'react';
-// import { send } from 'emailjs-com';
-// import{ init } from 'emailjs-com';
-// init("user_eSMFjCjC1C4AXtnDjwkCx");serviseId : service_h9aidmw
+
 import { useHistory } from 'react-router-dom';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
     const history = useHistory();
-    // const sendEmail = (e) => {
-    //     e.preventDefault()
-
-    //     // const formData = new FormData(e.currentTarget)
-
-    //     // console.log(formData);
-    //     const templateParams = {
-    //         name: 'Portfolio App',
-    //         notes: 'Check this out!'
-    //     };
-         
-    //     emailjs.send('service_h9aidmw', 'template_j6a3t4s', templateParams)
-    //         .then(function(response) {
-    //            console.log('SUCCESS!', response.status, response.text);
-    //         }, function(error) {
-    //            console.log('FAILED...', error);
-    //         });
-
-    // }
    
     const form = useRef();
 
@@ -39,7 +17,8 @@ const Contacts = () => {
         }, (error) => {
             console.log(error.text);
         })
-        .then(history.push('/home'))
+        .then(alert('Your message has been sent! We will be in touch soon.'))
+        .then(history.push('/home'));
     };
 
     return (
