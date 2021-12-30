@@ -56,7 +56,7 @@ const Contacts = () => {
                 <div className="grid_6">
                     {/* <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
                     <p><a href="http://www.templatetuning.com/" rel="nofollow" className="color1">TemplateTuning</a> will help you with customization of the chosen <br /> theme.</p> */}
-                 
+
                     9000 Postcode,<br />
                     City: Varna<br />
                     Telephone: +359 878 948 454<br />
