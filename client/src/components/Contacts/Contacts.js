@@ -2,31 +2,43 @@
 // import { send } from 'emailjs-com';
 // import{ init } from 'emailjs-com';
 // init("user_eSMFjCjC1C4AXtnDjwkCx");serviseId : service_h9aidmw
-// import React, { useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
     
-    const sendEmail = (e) => {
-        e.preventDefault()
+    // const sendEmail = (e) => {
+    //     e.preventDefault()
 
-        // const formData = new FormData(e.currentTarget)
+    //     // const formData = new FormData(e.currentTarget)
 
-        // console.log(formData);
-        const templateParams = {
-            name: 'Portfolio App',
-            notes: 'Check this out!'
-        };
+    //     // console.log(formData);
+    //     const templateParams = {
+    //         name: 'Portfolio App',
+    //         notes: 'Check this out!'
+    //     };
          
-        emailjs.send('service_h9aidmw', 'template_j6a3t4s', templateParams)
-            .then(function(response) {
-               console.log('SUCCESS!', response.status, response.text);
-            }, function(error) {
-               console.log('FAILED...', error);
-            });
+    //     emailjs.send('service_h9aidmw', 'template_j6a3t4s', templateParams)
+    //         .then(function(response) {
+    //            console.log('SUCCESS!', response.status, response.text);
+    //         }, function(error) {
+    //            console.log('FAILED...', error);
+    //         });
 
-    }
+    // }
    
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_h9aidmw', 'template_j6a3t4s', form.current, 'user_eSMFjCjC1C4AXtnDjwkCx')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     return (
         <section id="contacts" className="page">
@@ -39,7 +51,7 @@ const Contacts = () => {
                     <h2>Get in Touch</h2>
                 </div>
                 <div className="grid_6">
-                    <form id="contact-form" onSubmit={sendEmail} >
+                    {/* <form id="contact-form" onSubmit={sendEmail} >
                         <div className="contact-form-loader"></div>
                         <fieldset>
                             <label className="name">
@@ -63,7 +75,7 @@ const Contacts = () => {
                                 <span className="error-message">*The message is too short.</span>
                             </label>
                             <div>
-                                {/* <input className="btn" type="submit" value="Send" data-type="submit" /> */}
+                                {/* <input className="btn" type="submit" value="Send" data-type="submit" /> 
                                 <a href="" value="Send" className="btn" data-type="submit">submit </a>
                             </div>
                         </fieldset>
@@ -80,7 +92,17 @@ const Contacts = () => {
                                 </div>
                             </div>
                         </div>
-                    </form>
+                    </form> */}
+
+<form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
                 </div>
                 <div className="grid_6">
                     {/* <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
