@@ -17,7 +17,7 @@ const Contacts = () => {
             }, (error) => {
                 console.log(error.text);
             })
-            .then(alert('Your message has been sent! We will be in touch soon.'))
+            .then(alert('Your message has been sent! I will be in touch soon.'))
             .then(history.push('/home'));
     };
 
