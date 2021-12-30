@@ -95,23 +95,25 @@ const Contacts = () => {
                             </div>
                         </div>
                     </form> */}
+<form id="contact-form" ref={form} onSubmit={sendEmail}>
+<div className="contact-form-loader"></div>
 <fieldset>
-<form ref={form} onSubmit={sendEmail}>
-      <label className="name">Name</label>
-      <br />
-      <input type="text" name="user_name" />
-      <br />
-      <label className="email">Email</label>
-      <br />
-      <input type="email" name="user_email" />
-      <br />
-      <label className="message">Message</label>
-      <br />
-      <textarea name="message" />
-      <br />
-      <input type="submit" value="Send" />
-    </form>
+      <label className="name">
+      <input type="text" placeholder="Name*:" name="user_name" />
+      </label>
+      <label className="email">
+      <input type="text" placeholder="E-mail*:" name="user_email" />
+      </label>
+      <label className="message">
+      <textarea placeholder="Message*:" name="message" />
+      </label>
+      <div>
+      <input className="btn" type="submit" value="Send" />
+      </div>
+
+      
     </fieldset>
+    </form>
                 </div>
                 <div className="grid_6">
                     {/* <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
