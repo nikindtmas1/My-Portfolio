@@ -2,11 +2,12 @@
 // import { send } from 'emailjs-com';
 // import{ init } from 'emailjs-com';
 // init("user_eSMFjCjC1C4AXtnDjwkCx");serviseId : service_h9aidmw
+import { useHistory } from 'react-router-dom';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
-    
+    const history = useHistory();
     // const sendEmail = (e) => {
     //     e.preventDefault()
 
@@ -37,7 +38,8 @@ const Contacts = () => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
-        });
+        })
+        .then(history.push('/home'))
     };
 
     return (
@@ -93,16 +95,23 @@ const Contacts = () => {
                             </div>
                         </div>
                     </form> */}
-
+<fieldset>
 <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label className="name">Name</label>
+      <br />
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <br />
+      <label className="email">Email</label>
+      <br />
       <input type="email" name="user_email" />
-      <label>Message</label>
+      <br />
+      <label className="message">Message</label>
+      <br />
       <textarea name="message" />
+      <br />
       <input type="submit" value="Send" />
     </form>
+    </fieldset>
                 </div>
                 <div className="grid_6">
                     {/* <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" className="color1">premium templates</a>.</p>
