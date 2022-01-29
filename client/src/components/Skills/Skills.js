@@ -41,6 +41,15 @@ const Skills = () => {
                 </div>
                 <div className="grid_4">
                     <blockquote className="bq1">
+                        <img src="images/page-img_42.jpg" alt="" />
+                        <div className="extra_wrapper">
+                            <div className="text-5">TypeScript</div>
+                           <div className="text-4">Is a programming language commonly used in web development.</div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div className="grid_4">
+                    <blockquote className="bq1">
                         <img src="images/page-img_51.jpg" alt="" />
                         <div className="extra_wrapper">
                             <div className="text-5">React Js</div>

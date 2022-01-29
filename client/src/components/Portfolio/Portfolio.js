@@ -17,6 +17,7 @@ const Portfolio = () => {
                             <a href="https://github.com/nikindtmas1/Journey-React-Project" className="btn" data-filter=".design">React App</a>
                             <a href="https://react-project-journey.web.app/" className="btn" data-filter=".design">React Web App</a>
                             <a href="https://my-ecommerce-ee27f.web.app/" className="btn" data-filter=".design">my-eCommerce</a>
+                            <a href="https://rirst-typescript-app.web.app/" className="btn" data-filter=".design">Typescript-app</a>
                         </div>
                         <div className="el gallery" id="isotope">
                             <div className="element design">
