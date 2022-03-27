@@ -37,7 +37,7 @@ const Experience = () => {
                                 <h3>2020 - Present</h3>
                                 <time datetime="2014-01-01" className="text-2">April</time>
                                 <div className="ta__right">
-                                    <div className="text-2 color1">Hotell International</div>
+                                    <div className="text-2 color1">Hotel International</div>
                                     Junior Web Developer.
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const Experience = () => {
                                 <h3>2013 - Present</h3>
                                 <time datetime="2014-01-01" className="text-2">January</time>
                                 <div className="ta__right">
-                                    <div className="text-2 color1">Hotell International</div>
+                                    <div className="text-2 color1">Hotel International</div>
                                     Menager Department SPA.
                                 </div>
                             </div>
