@@ -13,8 +13,8 @@ const Experience = () => {
                     <div className="block-1">
                         <div className="grid_4 alpha">
                             <div className="block-1__left">
-                                <h3>2021 - Present</h3>
-                                <time datetime="2014-01-01" className="text-2">Oktober</time>
+                                <h3>2021</h3>
+                                <time datetime="2014-01-01" className="text-2">Oktober - December</time>
                                 <div className="ta__right">
                                     <div className="text-2 color1">SoftUni</div>
                                     Create Content For Tasks.
@@ -37,8 +37,8 @@ const Experience = () => {
                                 <h3>2020 - Present</h3>
                                 <time datetime="2014-01-01" className="text-2">April</time>
                                 <div className="ta__right">
-                                    <div className="text-2 color1">Hotel International</div>
-                                    Junior Web Developer.
+                                    <div className="text-2 color1">My Own Projects</div>
+                                    Web Developer.
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Experience = () => {
                                 <time datetime="2014-01-01" className="text-2">January</time>
                                 <div className="ta__right">
                                     <div className="text-2 color1">Hotel International</div>
-                                    Menager Department SPA.
+                                    Department Menager.
                                 </div>
                             </div>
                         </div>

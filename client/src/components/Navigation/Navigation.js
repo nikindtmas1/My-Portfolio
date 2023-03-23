@@ -12,7 +12,7 @@ const Navigation = () => {
                     <nav>
                         <ul>
                             {/* className="current" */}
-                            <li><Link to='/cv/cv-it.docx' target="_blank"  download>Download CV</Link></li>
+                            <li><Link to='/cv/cv-Nikolay.docx' target="_blank"  download>Download CV</Link></li>
                             <li><a href="/home" >Home</a></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
