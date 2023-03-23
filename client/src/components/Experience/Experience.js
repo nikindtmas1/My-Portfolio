@@ -46,8 +46,7 @@ const Experience = () => {
                             <div className="block-2__right">
                                 <h3>Job Description</h3>
                                 <div className="text-2">Web Developer</div>
-                                <p>Creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback.</p>
-                                {/* Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit */}
+                                <p>Creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback. Create SPA Apps with MERN technology - MongoDB, Express.Js, React, Node.Js </p>
                             </div>
                         </div>
                     </div>
@@ -65,13 +64,13 @@ const Experience = () => {
                         <div className="grid_8 omega">
                             <div className="block-2__right">
                                 <h3>Job Description</h3>
-                                <div className="text-2">Manager Spa</div>
-                                <p>SPA management, reservations, technical troubleshooting, activity reports, budgeting, revenue and cost control, customer relationships, business partner meetings, accommodation offerings, hotel software “clock”, “opera”, “symphony”  </p>
+                                <div className="text-2">Department Manager</div>
+                                <p>Management, reservations, technical troubleshooting, activity reports, budgeting, revenue and cost control, customer relationships, business partner meetings, accommodation offerings, hotel software “clock”, “opera”, “symphony”  </p>
                                 {/* Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit */}
                             </div>
                         </div>
                     </div>
-                    <div className="block-1">
+                    {/* <div className="block-1">
                         <div className="grid_4 alpha">
                             <div className="block-1__left">
                                 <h3>2007 - 2012</h3>
@@ -87,11 +86,11 @@ const Experience = () => {
                                 <h3>Job Description</h3>
                                 <div className="text-2">Manager Spa</div>
                                 <p>SPA management, reservations, technical troubleshooting, activity reports, budgeting, revenue and cost control, customer relationships, business partner meetings, accommodation offerings, hotel software “clock”  </p>
-                                {/* Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit */}
+                                Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit
                                 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="clear"></div>
             </div>

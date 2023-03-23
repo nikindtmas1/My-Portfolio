@@ -7,12 +7,12 @@ const Navigation = () => {
             <div className="container_12">
                 <div className="grid_12">
                     <h1 className="logo">
-                        <a href="/">N. Nikolaev</a>
+                        <a href="/home">N. Nikolaev</a>
                     </h1>
                     <nav>
                         <ul>
                             {/* className="current" */}
-                            <li><Link to='/cv/cv-Nikolay.docx' target="_blank"  download>Download CV</Link></li>
+                            <li><Link to='/cv/cv-Nikolay.pdf' target="_blank"  download>Download CV</Link></li>
                             <li><a href="/home" >Home</a></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><Link to="/skills">Skills</Link></li>
