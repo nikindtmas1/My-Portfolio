@@ -32,7 +32,7 @@ const HomePage = () => {
                     {/* <a href="https://github.com/nikindtmas1" className="btn" data-filter=".design">Developer</a>  */}
                     <a href="https://react-project-journey.web.app/" className="btn" data-filter=".design">FullStack</a>
                     <a href="https://my-ispa-massages.web.app/" className="btn" data-filter=".design">FullStack</a>
-                    <a href="https://my-ecommerce-ee27f.web.app/" className="btn" data-filter=".design">E-Commerce</a>
+                    <a href="https://trip-share-next.vercel.app/" className="btn" data-filter=".design">FullStack</a>
                     <a href="https://rirst-typescript-app.web.app/" className="btn" data-filter=".design">TypeScript</a>
                   </div>
                   {/* <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" className="color1">goodie</a>.  </p>
