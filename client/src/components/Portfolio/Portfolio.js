@@ -16,7 +16,7 @@ const Portfolio = () => {
                             <a href="https://my-ispa-massages.web.app/" className="btn" data-filter=".design">FullStack</a>
                             <a href="https://react-project-journey.web.app/" className="btn" data-filter=".design">FullStack</a>
                             <a href="https://rirst-typescript-app.web.app/" className="btn" data-filter=".ill">TypeScript</a>
-                            <a href="https://my-ecommerce-ee27f.web.app/" className="btn" data-filter=".photo">E-Commerce</a>
+                            {/* <a href="https://my-ecommerce-ee27f.web.app/" className="btn" data-filter=".photo">E-Commerce</a> */}
                             {/* <a href="https://my-ecommerce-ee27f.web.app/" className="btn" data-filter=".design">eCommerce</a>
                             <a href="https://rirst-typescript-app.web.app/" className="btn" data-filter=".design">TypeScript</a> */}
                         </div>
