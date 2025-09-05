@@ -11,7 +11,7 @@ const Portfolio = () => {
                         <br />
                         <h2 className="color2">My Portfolio</h2>
                         <div id="filters" className="button-group">
-                            <a href="https://github.com/nikindtmas1" className="btn" data-filter="*">Dashboard</a>
+                            <a href="https://trip-share-next.vercel.app/" className="btn" data-filter="*">Dashboard</a>
                             <a href="https://github.com/nikindtmas1/Feedback-Rating" className="btn" data-filter=".design">FullStack</a>
                             <a href="https://my-ispa-massages.web.app/" className="btn" data-filter=".design">FullStack</a>
                             <a href="https://react-project-journey.web.app/" className="btn" data-filter=".design">FullStack</a>
