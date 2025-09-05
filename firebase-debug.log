@@ -1,0 +1,15 @@
+[debug] [2025-09-05T08:34:48.973Z] ----------------------------------------------------------------------
+[debug] [2025-09-05T08:34:48.975Z] Command:       /home/niky/.nvm/versions/node/v22.17.1/bin/node /home/niky/.nvm/versions/node/v22.17.1/bin/firebase use --add
+[debug] [2025-09-05T08:34:48.975Z] CLI Version:   14.15.2
+[debug] [2025-09-05T08:34:48.976Z] Platform:      linux
+[debug] [2025-09-05T08:34:48.976Z] Node Version:  v22.17.1
+[debug] [2025-09-05T08:34:48.976Z] Time:          Fri Sep 05 2025 11:34:48 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-09-05T08:34:48.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-05T08:34:49.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-05T08:34:49.213Z] > authorizing via signed-in user (nikindtmas1@gmail.com)
+[debug] [2025-09-05T08:34:49.214Z] Checked if tokens are valid: true, expires at: 1757064788273
+[debug] [2025-09-05T08:34:49.214Z] Checked if tokens are valid: true, expires at: 1757064788273
+[debug] [2025-09-05T08:34:49.216Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-09-05T08:34:49.840Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-05T08:34:49.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
